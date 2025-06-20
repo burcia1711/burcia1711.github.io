@@ -1,0 +1,191 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background: #fdfdfd;
+  line-height: 1.6;
+  scroll-padding-top: 140px;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.hero-socials a:hover {
+  color: #ffffff;
+}
+
+.header-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.header-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3; /* Change this value to make the image more/less visible */
+  z-index: 0;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #0f0e0e;
+}
+
+
+
+nav, .hero {
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/*.hero {
+  text-align: center;
+  padding: 1rem 1rem 1rem;
+  background: #c7b7b7;
+}*/
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0rem;
+  border: 3px solid #ccc;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #2b2a2d;
+}
+
+.hero h1, .hero p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  scroll-margin-top: 480px;
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+ul.list {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+ul.list li {
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f1f1f1;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.social-icons a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+
+.hero-socials {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-socials a {
+  font-size: 2rem;
+  color: #2b2929;
+  transition: color 0.3s;
+}
+
+
+b, strong {
+  font-weight: bold;
+}
+
