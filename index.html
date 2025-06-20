@@ -117,5 +117,22 @@
   <footer>
     <p>&copy; 2025 Burcu Çınar. All rights reserved.</p>
   </footer>
+
+<script>
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    const hero = document.querySelector('.hero');
+    if (window.scrollY > 80) {
+      header.classList.add('scrolled');
+      hero.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+      hero.classList.remove('scrolled');
+    }
+  });
+</script>
+
+
+
 </body>
 </html>
